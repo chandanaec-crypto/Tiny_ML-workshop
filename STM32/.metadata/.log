@@ -510,3 +510,67 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2026-07-29 09:39:51.736 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-07-29 09:40:09.520
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-07-29 09:40:09.521
+!MESSAGE Log4j2 initialized with config file D:\Nitte_TinyML_Workshop\Tiny_ML-workshop\STM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-07-29 09:40:23.782
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-29 09:44:24.313
+!MESSAGE Indexed 'interfacing_BH1750' (30 sources, 95 headers) in 5.77 sec: 9,309 declarations; 71,786 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0025%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-07-29 10:44:59.270
+!MESSAGE Indexed 'interfacing_BH1750' (24 sources, 92 headers) in 2.5 sec: 7,335 declarations; 47,765 references; 0 unresolved inclusions; 9 syntax errors; 76 unresolved names (0.14%)
+
+!ENTRY org.eclipse.remote.core 4 0 2026-07-29 11:30:23.485
+!MESSAGE I2C
+
+!ENTRY org.eclipse.remote.core 4 0 2026-07-29 11:30:24.533
+!MESSAGE I2C
+
+!ENTRY org.eclipse.remote.core 4 0 2026-07-29 11:30:25.300
+!MESSAGE I2C
+
+!ENTRY org.eclipse.remote.core 4 0 2026-07-29 11:30:25.861
+!MESSAGE I2C
+
+!ENTRY org.eclipse.remote.core 4 0 2026-07-29 11:30:26.429
+!MESSAGE I2C
+
+!ENTRY org.eclipse.remote.core 4 0 2026-07-29 11:30:27.373
+!MESSAGE I2C
+
+!ENTRY org.eclipse.remote.core 4 0 2026-07-29 11:30:29.276
+!MESSAGE I2C
+
+!ENTRY org.eclipse.remote.console 4 0 2026-07-29 11:30:41.195
+!MESSAGE Error opening \\.\COM3 (5)
+!STACK 0
+java.io.IOException: Error opening \\.\COM3 (5)
+	at org.eclipse.cdt.serial.SerialPort.open0(Native Method)
+	at org.eclipse.cdt.serial.SerialPort.open(SerialPort.java:316)
+	at org.eclipse.remote.serial.core.SerialPortCommandShell.<init>(SerialPortCommandShell.java:34)
+	at org.eclipse.remote.serial.core.SerialPortConnection.getCommandShell(SerialPortConnection.java:97)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$1.run(TerminalConsoleConnector.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.remote.console 4 0 2026-07-29 11:33:10.951
+!MESSAGE Error opening \\.\COM3 (5)
+!STACK 0
+java.io.IOException: Error opening \\.\COM3 (5)
+	at org.eclipse.cdt.serial.SerialPort.open0(Native Method)
+	at org.eclipse.cdt.serial.SerialPort.open(SerialPort.java:316)
+	at org.eclipse.remote.serial.core.SerialPortCommandShell.<init>(SerialPortCommandShell.java:34)
+	at org.eclipse.remote.serial.core.SerialPortConnection.getCommandShell(SerialPortConnection.java:97)
+	at org.eclipse.remote.internal.console.TerminalConsoleConnector$1.run(TerminalConsoleConnector.java:140)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
